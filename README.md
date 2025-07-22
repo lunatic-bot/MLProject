@@ -48,7 +48,7 @@ Each model was tested and evaluated using performance metrics like R² score to 
 The app is deployed on Azure and accessible via:
 
 ```
-http://<your-azure-app-name>.azurewebsites.net
+http://<app-name>.azurewebsites.net
 ```
 
 ---
@@ -58,7 +58,7 @@ http://<your-azure-app-name>.azurewebsites.net
 1. Clone the repository:
 
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/lunatic-bot/MLProject.git
    cd project
    ```
 
@@ -78,7 +78,7 @@ http://<your-azure-app-name>.azurewebsites.net
 4. Run the Flask app:
 
    ```bash
-   python app.py
+   python application.py
    ```
 
 5. Open in browser:
