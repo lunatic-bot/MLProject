@@ -1,11 +1,115 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Score Prediction</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f4f8;
+      color: #333;
+      min-height: 100vh;
+    }
+
+    nav {
+      background-color: #0d6efd;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav h2 {
+      color: #fff;
+      font-size: 1.5rem;
+    }
+
+    .nav-buttons {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .nav-buttons a {
+      text-decoration: none;
+      background-color: #fff;
+      color: #0d6efd;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .nav-buttons a:hover {
+      background-color: #e2e6ea;
+    }
+
+    .container {
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #0d6efd;
+    }
+
+    p {
+      margin-top: 1rem;
+      font-size: 1.1rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <h2>Score Predictor</h2>
+    <div class="nav-buttons">
+      <a href="http://localhost:5000/">Home</a>
+      <a href="http://localhost:5000/predictdata">Predict Score</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1>Welcome to the Score Predictor App</h1>
+    <p>Use this app to predict scores based on your input data.</p>
+  </div>
+</body>
+</html> -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Score Prediction</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Score Prediction</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-    <h1>Welcome to score predictor app</h1>
+<body class="bg-gray-100 min-h-screen font-sans">
+  <!-- Navbar -->
+  <nav class="bg-blue-600 shadow">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="flex justify-between h-16 items-center">
+        <div class="flex items-center">
+          <span class="text-white font-semibold text-xl">Score Predictor</span>
+        </div>
+        <div class="flex space-x-4">
+          <a href="/" class="text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-700">Home</a>
+          <a href="/predictdata" class="text-white px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-700">Predict Score</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="max-w-3xl mx-auto text-center mt-20">
+    <h1 class="text-4xl font-bold text-gray-800 mb-6">Welcome to the Score Predictor App</h1>
+    <p class="text-gray-600 text-lg">Use this application to predict scores based on input data using our ML model.</p>
+  </div>
 </body>
 </html>
