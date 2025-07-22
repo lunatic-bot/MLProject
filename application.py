@@ -1,4 +1,4 @@
-from fastapi.responses import JSONResponse
+from flask import jsonify
 from flask import Flask, request, render_template
 import numpy as np
 import pandas as pd
@@ -41,7 +41,7 @@ def predict_datapoint():
         
     except Exception as e:
         print("Error during prediction:", e)
-        return JSONResponse(status_code=500, content={"error": str(e)})
+        return jsonify({"error": str(e)}), 500
     
 ## run the app
 if __name__ == "__main__":
