@@ -1,18 +1,18 @@
-# 🧠 Score Predictor App
+# Score Predictor App
 
 This is a small end-to-end **Score Prediction** application that predicts scores based on user input. The project is structured in a **modular** way using pipelines and reusable components to maintain clean and readable code.
 
-## 🚀 Project Highlights
+## Project Highlights
 
-- ✅ Modular project architecture using custom **pipelines** and **components**
-- ✅ Machine Learning models implemented and compared
-- ✅ Frontend built with **HTML** and **CSS**
-- ✅ Backend powered by **Flask**
-- ✅ Deployed on **Azure App Service**
+- Modular project architecture using custom **pipelines** and **components**
+- Machine Learning models implemented and compared
+- Frontend built with **HTML** and **CSS**
+- Backend powered by **Flask**
+- Deployed on **Azure App Service**
 
 ---
 
-## 🧪 ML Models Used
+## ML Models Used
 
 The following regression models were trained and evaluated:
 
@@ -32,7 +32,7 @@ Each model was tested and evaluated using performance metrics like R² score to 
 
 ---
 
-## 🖥️ Tech Stack
+## Tech Stack
 
 | Layer      | Tools Used                      |
 | ---------- | ------------------------------- |
@@ -43,7 +43,7 @@ Each model was tested and evaluated using performance metrics like R² score to 
 
 ---
 
-## 🌐 Deployment
+## Deployment
 
 The app is deployed on Azure and accessible via:
 
@@ -53,7 +53,7 @@ http://<app-name>.azurewebsites.net
 
 ---
 
-## 🧑‍💻 How to Run Locally
+## How to Run Locally
 
 1. Clone the repository:
 
@@ -89,6 +89,6 @@ http://<app-name>.azurewebsites.net
 
 ---
 
-## 📬 Feedback
+## Feedback
 
 If you find any issues or want to suggest improvements, feel free to raise an issue or submit a PR.
