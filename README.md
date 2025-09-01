@@ -1,4 +1,3 @@
-````markdown
 # Score Predictor App
 
 This is a small end-to-end **Score Prediction** application that predicts scores based on user input. The project is structured in a **modular** way using pipelines and reusable components to maintain clean and readable code.
@@ -28,6 +27,7 @@ models = {
     "AdaBoost Regressor": AdaBoostRegressor(),
 }
 ```
+
 ````
 
 Each model was tested and evaluated using performance metrics like R² score to find the best fit for the dataset.
@@ -98,5 +98,4 @@ http://score-prediction-hqh6esdrdwazchbc.canadacentral-01.azurewebsites.net
 If you find any issues or want to suggest improvements, feel free to raise an issue or submit a PR.
 
 ```
-
-```
+````
