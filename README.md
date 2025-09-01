@@ -28,8 +28,6 @@ models = {
 }
 ```
 
-````
-
 Each model was tested and evaluated using performance metrics like R² score to find the best fit for the dataset.
 
 ---
@@ -96,6 +94,3 @@ http://score-prediction-hqh6esdrdwazchbc.canadacentral-01.azurewebsites.net
 ## Feedback
 
 If you find any issues or want to suggest improvements, feel free to raise an issue or submit a PR.
-
-```
-````
